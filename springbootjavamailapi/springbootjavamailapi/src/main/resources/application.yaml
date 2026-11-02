@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springbootjavamailapi
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: gayatrijadhav51198@gmail.com
+    password: vres ktcm ccop xvxy
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8081
+
